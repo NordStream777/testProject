@@ -1,0 +1,30 @@
+.body{
+    margin: 0;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 100px 0 100px;
+}
+@media (max-width: 768px){
+    .container{
+        padding: 0 20px 0 20px;}
+
+}
+@media (max-width: 768px){
+    .container{
+        padding: 0 20px 0 20px;}
+
+}
+@media (max-width: 575px){
+    .container{
+        padding: 0;
+    }
+
+}
+@import '../sass/blocks/header';
+@import '../sass/blocks/catalog';
+
+
+
+@import '../sass/base/media';
